@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - '*.x'
+      - purge-db-connections
   pull_request:
 
 jobs:
